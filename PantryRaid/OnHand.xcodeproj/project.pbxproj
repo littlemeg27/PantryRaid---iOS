@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* OnHandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* OnHandApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Models.swift */; };
+		A10000000000000000000004 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* SeedData.swift */; };
+		A10000000000000000000005 /* RecipeMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* RecipeMatcher.swift */; };
+		A10000000000000000000006 /* InventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* InventoryStore.swift */; };
+		A10000000000000000000007 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* Theme.swift */; };
+		A10000000000000000000008 /* KitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* KitchenView.swift */; };
+		A10000000000000000000009 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* InventoryView.swift */; };
+		A10000000000000000000010 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* RecipesView.swift */; };
+		A10000000000000000000011 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* ShopView.swift */; };
+		A10000000000000000000012 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* AddItemView.swift */; };
+		A10000000000000000000013 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* RecipeDetailView.swift */; };
+		A10000000000000000000016 /* Expiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* Expiry.swift */; };
+		A10000000000000000000017 /* AiRecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* AiRecipeService.swift */; };
+		A10000000000000000000018 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000018 /* SettingsView.swift */; };
+		A10000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* OnHand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnHand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000001 /* OnHandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnHandApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* RecipeMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMatcher.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* InventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* KitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenView.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 /* Expiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expiry.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* AiRecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiRecipeService.swift; sourceTree = "<group>"; };
+		B10000000000000000000018 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* OnHand */,
+				D10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* OnHand */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* OnHandApp.swift */,
+				B10000000000000000000002 /* ContentView.swift */,
+				B10000000000000000000003 /* Models.swift */,
+				B10000000000000000000004 /* SeedData.swift */,
+				B10000000000000000000005 /* RecipeMatcher.swift */,
+				B10000000000000000000006 /* InventoryStore.swift */,
+				B10000000000000000000007 /* Theme.swift */,
+				B10000000000000000000008 /* KitchenView.swift */,
+				B10000000000000000000009 /* InventoryView.swift */,
+				B10000000000000000000010 /* RecipesView.swift */,
+				B10000000000000000000011 /* ShopView.swift */,
+				B10000000000000000000012 /* AddItemView.swift */,
+				B10000000000000000000013 /* RecipeDetailView.swift */,
+				B10000000000000000000016 /* Expiry.swift */,
+				B10000000000000000000017 /* AiRecipeService.swift */,
+				B10000000000000000000018 /* SettingsView.swift */,
+				B10000000000000000000014 /* Assets.xcassets */,
+				B10000000000000000000015 /* Info.plist */,
+			);
+			path = OnHand;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* OnHand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* OnHand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20000000000000000000002 /* Build configuration list for PBXNativeTarget "OnHand" */;
+			buildPhases = (
+				E20000000000000000000001 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				E20000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnHand;
+			productName = OnHand;
+			productReference = B00000000000000000000001 /* OnHand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F20000000000000000000001 /* Build configuration list for PBXProject "OnHand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* OnHand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* OnHandApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* Models.swift in Sources */,
+				A10000000000000000000004 /* SeedData.swift in Sources */,
+				A10000000000000000000005 /* RecipeMatcher.swift in Sources */,
+				A10000000000000000000006 /* InventoryStore.swift in Sources */,
+				A10000000000000000000007 /* Theme.swift in Sources */,
+				A10000000000000000000008 /* KitchenView.swift in Sources */,
+				A10000000000000000000009 /* InventoryView.swift in Sources */,
+				A10000000000000000000010 /* RecipesView.swift in Sources */,
+				A10000000000000000000011 /* ShopView.swift in Sources */,
+				A10000000000000000000012 /* AddItemView.swift in Sources */,
+				A10000000000000000000013 /* RecipeDetailView.swift in Sources */,
+				A10000000000000000000016 /* Expiry.swift in Sources */,
+				A10000000000000000000017 /* AiRecipeService.swift in Sources */,
+				A10000000000000000000018 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OnHand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnHand;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onhand.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OnHand/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnHand;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onhand.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20000000000000000000001 /* Build configuration list for PBXProject "OnHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000001 /* Debug */,
+				F10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20000000000000000000002 /* Build configuration list for PBXNativeTarget "OnHand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000003 /* Debug */,
+				F10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000001 /* Project object */;
+}
